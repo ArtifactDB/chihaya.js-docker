@@ -6,7 +6,7 @@ ENV PATH="/emsdk/node/16.20.0_64bit/bin:${FINALPATH}"
 
 RUN git clone https://github.com/ArtifactDB/chihaya.js && \
     cd chihaya.js && \
-    git checkout updated
+    git checkout master
 
 WORKDIR chihaya.js
 
