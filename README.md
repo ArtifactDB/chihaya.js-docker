@@ -13,4 +13,4 @@ NODEBIN=$(echo /emsdk/node/*/bin)
 export PATH="${NODEBIN}:${PATH}"
 ```
 
-The `/chihaya.js/` directory contains the **chihaya.js** code, along with the pre-built `build/` subdirectory containing an initial CMake build.
+The `/chihaya.js/` directory contains a copy of the **chihaya.js** repository, along with a `build/` subdirectory containing an initial CMake build.
